@@ -29,9 +29,6 @@ struct CurrentNoteMarker: View {
     }
 }
 
-struct CurrentNoteMarker_Previews: PreviewProvider {
-    static var previews: some View {
-        CurrentNoteMarker(frequency: 440.0, distance: 0, showFrequencyText: true)
-            .previewLayout(.fixed(width: 300, height: 200))
-    }
+#Preview {
+    CurrentNoteMarker(frequency: 440.0, distance: 0, showFrequencyText: true)
 }

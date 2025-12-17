@@ -30,8 +30,6 @@ struct TunerScreen: View {
     }
 }
 
-struct TunerScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        TunerScreen()
-    }
+#Preview {
+    TunerScreen()
 }

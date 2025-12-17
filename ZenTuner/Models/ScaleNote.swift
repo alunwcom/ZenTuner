@@ -1,4 +1,4 @@
-import Darwin.C.math
+import Darwin
 import SwiftUI
 
 /// A note in a twelve-tone equal temperament scale. https://en.wikipedia.org/wiki/Equal_temperament
