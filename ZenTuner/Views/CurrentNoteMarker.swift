@@ -30,5 +30,9 @@ struct CurrentNoteMarker: View {
 }
 
 #Preview {
-    CurrentNoteMarker(frequency: 440.0, distance: 0, showFrequencyText: true)
+    CurrentNoteMarker(
+        frequency: 440.0,
+        distance: 0,
+        showFrequencyText: true
+    )
 }

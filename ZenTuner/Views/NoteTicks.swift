@@ -15,3 +15,10 @@ struct NoteTicks: View {
             )
     }
 }
+
+#Preview {
+    NoteTicks(
+        tunerData: TunerData(),
+        showFrequencyText: true
+    )
+}

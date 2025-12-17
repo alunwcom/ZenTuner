@@ -48,9 +48,6 @@ extension View {
     }
 }
 
-struct NoteDistanceMarkers_Previews: PreviewProvider {
-    static var previews: some View {
-        NoteDistanceMarkers()
-            .previewLayout(.sizeThatFits)
-    }
+#Preview {
+    NoteDistanceMarkers()
 }

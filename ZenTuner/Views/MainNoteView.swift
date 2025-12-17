@@ -13,9 +13,6 @@ struct MainNoteView: View {
     }
 }
 
-struct MainNoteView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainNoteView(note: "A")
-            .previewLayout(.sizeThatFits)
-    }
+#Preview {
+    MainNoteView(note: "A")
 }

@@ -42,9 +42,6 @@ private extension ScaleNote {
     }
 }
 
-struct TranspositionMenu_Previews: PreviewProvider {
-    static var previews: some View {
-        TranspositionMenu(selectedTransposition: .constant(0))
-            .previewLayout(.sizeThatFits)
-    }
+#Preview {
+    TranspositionMenu(selectedTransposition: .constant(0))
 }

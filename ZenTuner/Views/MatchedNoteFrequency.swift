@@ -9,9 +9,6 @@ struct MatchedNoteFrequency: View {
     }
 }
 
-struct MatchedNoteFrequency_Previews: PreviewProvider {
-    static var previews: some View {
-        MatchedNoteFrequency(frequency: 440.0)
-            .previewLayout(.sizeThatFits)
-    }
+#Preview {
+    MatchedNoteFrequency(frequency: 440.0)
 }

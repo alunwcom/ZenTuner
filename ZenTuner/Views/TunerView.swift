@@ -60,12 +60,10 @@ struct TunerView: View {
     }
 }
 
-struct TunerView_Previews: PreviewProvider {
-    static var previews: some View {
-        TunerView(
-            tunerData: TunerData(),
-            modifierPreference: .preferSharps,
-            selectedTransposition: 0
-        )
-    }
+#Preview {
+    TunerView(
+        tunerData: TunerData(),
+        modifierPreference: .preferSharps,
+        selectedTransposition: 0
+    )
 }

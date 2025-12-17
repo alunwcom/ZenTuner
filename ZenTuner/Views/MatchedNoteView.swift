@@ -64,16 +64,14 @@ private extension View {
     }
 }
 
-struct MatchedNoteView_Previews: PreviewProvider {
-    static var previews: some View {
-        MatchedNoteView(
-            match: ScaleNote.Match(
-                note: .ASharp_BFlat,
-                octave: 4,
-                distance: 0
-            ),
-            modifierPreference: .preferSharps
-        )
-        .previewLayout(.sizeThatFits)
-    }
+#Preview {
+    let note = ScaleNote.Match(
+        note: ScaleNote.ASharp_BFlat,
+        octave: 4,
+        distance: 0)
+    
+    MatchedNoteView(
+        match: note,
+        modifierPreference: ModifierPreference.preferSharps
+    )
 }

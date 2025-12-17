@@ -190,10 +190,10 @@
 			isa = PBXGroup;
 			children = (
 				8FB571EF25B73ECE007C28BC /* CurrentNoteMarker.swift */,
-				8F2D9754269390D800B512D0 /* MicrophoneAccessAlert.swift */,
 				8FB571F025B73ECE007C28BC /* MainNoteView.swift */,
 				8FB571F225B73ECF007C28BC /* MatchedNoteFrequency.swift */,
 				8FB571F125B73ECE007C28BC /* MatchedNoteView.swift */,
+				8F2D9754269390D800B512D0 /* MicrophoneAccessAlert.swift */,
 				8FB571F325B73ECF007C28BC /* NoteDistanceMarkers.swift */,
 				8FB571F425B73ECF007C28BC /* TunerView.swift */,
 				8F2D97582693930000B512D0 /* NoteTicks.swift */,
